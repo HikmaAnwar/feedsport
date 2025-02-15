@@ -13,7 +13,7 @@ export default function HomePage() {
         transition={{ duration: 1 }}
       >
         <Title className="text-4xl font-bold mb-4">
-          Welcome to Sports Feed
+          Welcome to Feed Sports
         </Title>
       </motion.div>
 
