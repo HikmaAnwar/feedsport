@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sports Feed Website
 
-## Getting Started
+Welcome to the **Sports Feed** website! This project provides live scores, upcoming fixtures, and the latest sports news from your favorite teams. Built with Next.js, Mantine UI, and Framer Motion, it offers an engaging and interactive sports experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Live Scores**: View the latest live scores for various sports matches.
+- **Upcoming Fixtures**: Get upcoming fixture details.
+- **Latest Sports News**: Stay updated with breaking sports news, player transfers, and match insights.
+- **Search Functionality**: Search news and match details by team or player.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend**: Next.js, React, Tailwind CSS, Mantine UI, Framer Motion
+- **Backend**: No backend for now (uses external APIs for sports data)
+- **State Management**: React hooks
+- **Animations**: Framer Motion
+- **Icons**: React icons
+- **Deployment**: Vercel
+- **APIs**: Football API, SPORTSDB API, News API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## APIs Used
 
-## Learn More
+This project relies on third-party APIs for fetching sports data. Below are the API endpoints used in the application:
 
-To learn more about Next.js, take a look at the following resources:
+### 1. **Football API** (For Live Scores)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **API KEY**
+- **Used For**: Fetching live scores.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 2. **SPORTSDB API** (For Upcoming Fixtures)
 
-## Deploy on Vercel
+- **API URL**: `https://www.thesportsdb.com/api/v1/json/3`
+- **Used For**: Fetching upcoming fixtures, and other sports data.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. **News API** (For Sports News)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **API URL**: `https://newsapi.org/v2/top-headlines`
+- **Used For**: Fetching sports-related news articles from various sources.
+
+## Contributing
+
+Feel free to fork this repository and contribute! If you'd like to report any issues or suggest improvements, please open an issue or a pull request.
