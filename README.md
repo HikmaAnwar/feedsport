@@ -1,6 +1,6 @@
-# Sports Feed Website
+# Feed Sports Website
 
-Welcome to the **Sports Feed** website! This project provides live scores, upcoming fixtures, and the latest sports news from your favorite teams. Built with Next.js, Mantine UI, and Framer Motion, it offers an engaging and interactive sports experience.
+Welcome to the **Feed Sports** website! This project provides live scores, upcoming fixtures, and the latest sports news from your favorite teams. Built with Next.js, Mantine UI, and Framer Motion, it offers an engaging and interactive sports experience.
 
 ## Features
 
