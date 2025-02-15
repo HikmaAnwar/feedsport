@@ -52,7 +52,7 @@ export default function Navigation() {
           className="flex items-center text-3xl md:mx-auto font-bold text-blue-600"
         >
           <FcSportsMode className="text-3xl mr-2" />
-          SF
+          FS
         </Link>
 
         <button
